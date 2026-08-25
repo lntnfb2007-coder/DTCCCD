@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Đăng nhập</title>
+</head>
+<style>
+    table{
+        background-color: rgb(196, 255, 128);
+        margin: auto;
+    
+    }
+</style>
+<body>
+    <form>
+        <table>
+            <tr>
+                <td><label for="user">User</label></td>
+                <td><input type="text" id="user"></td>
+            </tr>
+            <tr>
+                <td><label for="pass">Pass</label></td>
+                <td><input type="text" id="Pass"></td>
+            </tr>
+            <td colspan="2"><label for="nhott"> <input type="checkbox" name="nhott" id="nhott">Nhớ thông tin đăng nhập</label></td>
+            </tr>
+            <tr>
+            <td align="center" colspan="2"><input type="button" value="Đồng ý" onclick="alert('bạn đã đăng nhập thành công')"></td>
+        </tr>
+        </table>
+    </form>
+</body>
+</html>
